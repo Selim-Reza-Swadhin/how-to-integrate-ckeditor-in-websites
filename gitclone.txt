@@ -1,1 +1,91 @@
-git@github.com:Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone
+$ git clone https://github.com/Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+Cloning into 'how-to-integrate-ckeditor-in-websites'...
+remote: Enumerating objects: 174, done.
+remote: Counting objects: 100% (174/174), done.
+remote: Compressing objects: 100% (162/162), done.
+remote: Total 174 (delta 11), reused 174 (delta 11), pack-reused 0
+Receiving objects: 100% (174/174), 1.72 MiB | 6.00 KiB/s, done.
+Resolving deltas: 100% (11/11), done.
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone
+$ cd how-to-integrate-ckeditor-in-websites
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        gitclone.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git add .
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git commit -m "change"
+[master 3c78fd5] change
+ 1 file changed, 1 insertion(+)
+ create mode 100644 gitclone.txt
+ 
+ //Show all remote commant
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git remote origin https://github.com/Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git remote add origin https://github.com/Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+fatal: remote origin already exists.
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git remote show
+origin
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+  Push  URL: https://github.com/Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (fast-forwardable)
+
+Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+$ git push origin master
+fatal: TaskCanceledException encountered.
+   A task was canceled.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 409 bytes | 204.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Selim-Reza-Swadhin/how-to-integrate-ckeditor-in-websites.git
+   235af17..3c78fd5  master -> master
+   
+ Selim Reza Swadhin@DESKTOP-FTHJTF5 MINGW64 ~/Desktop/gitclone/how-to-integrate-ckeditor-in-websites (master)
+//finish and push repository your github page.

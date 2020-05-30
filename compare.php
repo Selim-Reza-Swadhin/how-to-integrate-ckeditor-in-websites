@@ -1,4 +1,5 @@
 <?php include'inc/header.php'; ?>
+//testing uploaded file
 <style>
     .tblone td img{width: 100px;height: 90px;}
 </style>
